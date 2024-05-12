@@ -60,7 +60,7 @@ export const generateSingBox = (
 ) => {
   const config = {
     type: "wireguard",
-    local_address: ["172.16.0.2/32"],
+    local_address: ["172.16.0.2"],
     private_key: privateKey,
     peer_public_key: CF_PUBLIC_KEY,
     system_interface: false,
